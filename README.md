@@ -30,24 +30,6 @@ The project covers the complete data analytics workflow: data cleaning → SQL a
 | **Project Management** | Jira (Kanban Board) | Agile task tracking across all phases |
 
 
-##  Project Structure
-
-```
-hr-employee-attrition-analysis/
-│
-├── sql/
-│   ├── data_cleaning.sql          # Schema fixes, type conversions, VIEW creation
-│   └── sql_analysis.sql           # 10+ business analysis queries
-│
-├── python/
-│   └── python_analysis.ipynb      # EDA: age group & travel analysis
-│
-├── powerbi/
-│   └── powerbi_dashboard.pbix     # 3-page interactive Power BI dashboard
-│
-└── README.md
-```
-
 ##  Project Workflow
 
 - ### Phase 1 — SQL Data Cleaning (`data_cleaning.sql`)
